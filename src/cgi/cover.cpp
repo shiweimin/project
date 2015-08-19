@@ -1,8 +1,8 @@
 /** @cover.cpp
-*	专辑控制器CGI
-*	@author arikshi
+*	控制器CGI
+*	@author 
 *	@version 1.0
-*	@date	2014-11-04 10:21:00
+*	@date	2014-11-04
 */
 
 #include "comm_fun.h"
@@ -15,7 +15,7 @@ namespace cgi
 	public:
 		void init()
 		{
-			//g_configger 来自Servlet->CGIRequest->isd_log中的定义
+	
 			int iRet = 0;
 
 			string strDBIP = g_configger->getStr("db_ip", "localhost");
